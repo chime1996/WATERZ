@@ -1,0 +1,96 @@
+/* 
+heading:  font-family: "Schoolbell", cursive;
+
+colors:#007bff;
+accent:#ffa21d;
+light:#53e1ff;
+text:#70768e;
+
+#00c3ed
+ */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Exo 2", sans-serif;
+  color: #70768e;
+  font-size: 1.6rem;
+  background-color: #fff;
+}
+
+.margBot {
+  margin-bottom: 3.8rem;
+}
+.maup {
+  margin-top: 1.2rem;
+}
+
+.container {
+  max-width: 120rem;
+  padding: 0 3.6rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+}
+
+.col-2-grid {
+  margin-top: 1.8rem;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+}
+
+.col-3-grid {
+  margin-top: 1.8rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.col-4-grid {
+  margin-top: 1.8rem;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2.4rem;
+}
+
+.col-4-grids {
+  margin-top: 1.8rem;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3.6rem;
+}
+
+.mb {
+  margin-bottom: -0.8rem;
+}
+
+.co {
+  color: #fff !important;
+}
+
+/* Headings */
+.tertiary-head {
+  font-family: "Schoolbell", cursive;
+  color: #ffa21d;
+  font-weight: 300;
+  font-size: 3.6rem;
+  margin-top: 4.6rem;
+  margin-bottom: 1.6rem;
+  text-align: center;
+}
+
+.heading-primary,
+.span {
+  font-size: 7.8rem;
+  display: block;
+  font-weight: 600;
+  color: #081340;
+  text-align: center;
+}
