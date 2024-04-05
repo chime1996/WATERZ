@@ -71,11 +71,14 @@
   line-height: 1.8;
   margin-bottom: 2rem;
 }
+/* Why SECTION */
 
 .second_why-section {
   padding: 1.2rem;
   background-color: #081340;
 }
+
+/* MISSION SECTION */
 
 .mission-section {
   padding: 3rem;
@@ -85,7 +88,32 @@
   padding: 2rem;
   margin-top: 3rem;
 }
+.mission {
+  border: 1px solid #dae0ef;
+}
 
 .miss-img {
-  max-width: 90%;
+  max-width: 100%;
+  border-top-left-radius: 3px;
+}
+
+.mission-body {
+  padding: 2.4rem;
+}
+
+.miss-head {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-top: 2.4rem;
+  color: #081340;
+  margin-bottom: 1.4rem;
+}
+
+.miss-body {
+  line-height: 2;
+  margin-bottom: 2.4rem;
+}
+
+.miss-link {
+  text-decoration: none;
 }
