@@ -1,0 +1,143 @@
+/* CHECKOUT SECTION */
+
+.checkout-section {
+  padding: 3.2rem;
+}
+
+.checkout-div {
+}
+
+.checkout_details {
+  width: 110rem;
+  text-align: center;
+  background-color: #f1f1f1;
+  margin-top: 2.4rem;
+  padding: 2.4rem;
+  border: 1px solid #6c757d;
+  border-radius: 9px;
+}
+
+.chk-dt {
+  text-align: center;
+  color: #ffa21d;
+}
+
+.bot-dt {
+  margin-top: 3.2rem;
+  padding: 2rem;
+}
+
+.bot_img-dt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+  background-color: aqua;
+  color: #fff;
+  padding: 2rem;
+  width: 38rem;
+  margin-left: 1.5rem;
+}
+
+.bot-dt_txt {
+  padding: 2rem;
+  text-align: start;
+}
+
+.bot-dth2 {
+  color: #081340;
+  font-size: 2.4rem;
+  margin-top: -2.6rem;
+  margin-bottom: 2.4rem;
+  font-weight: 600;
+}
+
+.bot-dt_p {
+  margin-top: 1.6rem;
+  margin-bottom: 3rem;
+  font-size: 1.6rem;
+  line-height: 1.7;
+}
+
+.bot-dt-lst {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.8rem;
+  margin-top: 1.6rem;
+  margin-bottom: 2.4rem;
+}
+
+.lst {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.l-h2 {
+  font-size: 1.8rem;
+  background-color: #081340;
+  border-radius: 50%;
+  padding: 1rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.lp- {
+  font-size: 2.4rem;
+  color: #081340;
+  font-weight: 600;
+}
+
+.last-p {
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
+  line-height: 1.7;
+}
+
+.btn-divsz {
+  margin-top: 3.2rem;
+  display: flex;
+  gap: 1.4rem;
+  text-align: center;
+}
+
+.bottleszz {
+  font-size: 1.6rem;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 700;
+  padding: 2rem;
+  color: #fff;
+}
+
+.bottleszz:link {
+  background-color: #ffa21d;
+  border-radius: 9px;
+}
+
+.bottleszz:hover {
+  background-color: #00c3ed;
+  border-radius: 9px;
+  width: 20rem;
+}
+
+.bottlesz {
+  font-size: 1.6rem;
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  border-radius: 9px;
+}
+
+.bottlesz:link {
+  background-color: #081340;
+  font-weight: 700;
+  padding: 2rem;
+}
+
+.bottlesz:hover {
+  background-color: #00c3ed;
+  border-radius: 9px;
+  width: 20rem;
+}
