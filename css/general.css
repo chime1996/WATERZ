@@ -94,3 +94,7 @@ body {
   color: #081340;
   text-align: center;
 }
+
+.all-border {
+  border: 1px solid #dae0ef;
+}
