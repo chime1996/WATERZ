@@ -1,0 +1,43 @@
+/* Blogging Section */
+.bloging-section {
+  padding: 4.8rem;
+}
+
+/* SERVICE SECTION */
+
+.service-section {
+  padding: 4.8rem;
+}
+
+/* BLOG DETAILS SECTION */
+
+.blog_detail-section {
+  padding: 4.8rem;
+}
+
+.container-div {
+  display: flex;
+  justify-content: space-between;
+  gap: 2.4rem;
+}
+
+.main_blog_div {
+  padding: 1.6rem;
+}
+
+.blog_header_primary {
+  margin-top: 1.6rem;
+  color: #081340;
+  font-size: 4rem;
+  font-weight: 600;
+  margin-bottom: 0.9rem;
+}
+
+.blog_header-flex {
+  display: flex;
+  gap: 1.6rem;
+  color: #00c3ed;
+  margin-bottom: 2.4rem;
+  align-items: center;
+  margin-top: 1.6rem;
+}

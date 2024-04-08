@@ -10,9 +10,9 @@
 .checkout_details {
   width: 110rem;
   text-align: center;
-  background-color: #f1f1f1;
+  background-color: #fff;
   margin-top: 2.4rem;
-  padding: 2.4rem;
+  padding: 1rem;
   border: 1px solid #6c757d;
   border-radius: 9px;
 }
@@ -24,7 +24,18 @@
 
 .bot-dt {
   margin-top: 3.2rem;
-  padding: 2rem;
+  padding: 1rem;
+}
+
+.bot-dt_img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bt-img {
+  max-width: 100%;
 }
 
 .bot_img-dt {
@@ -32,11 +43,13 @@
   align-items: center;
   justify-content: space-between;
   gap: 0.8rem;
-  background-color: aqua;
+  background-color: #00c3ed;
   color: #fff;
   padding: 2rem;
   width: 38rem;
   margin-left: 1.5rem;
+  margin-top: 2.4rem;
+  text-align: center;
 }
 
 .bot-dt_txt {
@@ -81,6 +94,9 @@
   padding: 1rem;
   font-weight: 600;
   color: #fff;
+  width: 4rem;
+  height: 4rem;
+  text-align: center;
 }
 
 .lp- {
@@ -96,10 +112,11 @@
 }
 
 .btn-divsz {
-  margin-top: 3.2rem;
+  margin-top: 3.6rem;
   display: flex;
   gap: 1.4rem;
   text-align: center;
+  border-radius: 12px;
 }
 
 .bottleszz {
