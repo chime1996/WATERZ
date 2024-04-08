@@ -41,3 +41,21 @@
   align-items: center;
   margin-top: 1.6rem;
 }
+
+.blog_writeups {
+  line-height: 2;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.blog_writeups_bodys {
+  margin-bottom: 2.4rem;
+}
+
+.blog_writeups_body {
+  margin-bottom: 2.4rem;
+}
+
+.h-r {
+  margin: 2rem;
+}
