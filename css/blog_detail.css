@@ -222,9 +222,20 @@
   margin: 2.4rem;
 }
 
-.lac-o {
+.llac {
   display: flex;
-  gap: 3rem;
-  padding: 2.4rem;
-  text-align: center;
+  gap: 5rem;
+  align-items: flex-start;
+}
+
+.lac-o {
+  background-color: rgb(205, 223, 217);
+}
+
+.lac-t {
+  background-color: rgb(205, 223, 217);
+}
+
+.input {
+  padding: 2rem;
 }
