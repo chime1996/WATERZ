@@ -219,23 +219,150 @@
 }
 
 .lac {
-  margin: 2.4rem;
+  margin: 3rem;
 }
 
 .llac {
   display: flex;
-  gap: 5rem;
+  gap: 4rem;
   align-items: flex-start;
 }
 
 .lac-o {
-  background-color: rgb(205, 223, 217);
+  background: #f4f6fb;
+  padding: 0.8rem;
+  max-width: 70%;
 }
 
 .lac-t {
-  background-color: rgb(205, 223, 217);
+  background: #f4f6fb;
+  padding: 0.8rem;
+  max-width: 70%;
 }
 
 .input {
   padding: 2rem;
+  border: none;
+  background: #f4f6fb;
+}
+
+.input-t {
+  margin-top: 2.4rem;
+  width: 68%;
+  border: none;
+  background: #f4f6fb;
+}
+
+.lac-link:link {
+  display: inline-block;
+  margin-top: 2.6rem;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #ffa21d;
+  padding: 2rem;
+  border-radius: 7px;
+}
+
+.lac-link:hover {
+  background-color: #00c3ed;
+  transition: all 0.5s;
+}
+
+/* Aside */
+
+.search_input {
+  padding: 2.4rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  border-radius: 9px;
+}
+
+.latest_posts {
+  margin-top: 1.6rem;
+  padding: 2.8rem;
+}
+
+.l_posts {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #081340;
+  margin-top: 1.8rem;
+  margin-bottom: 2.4rem;
+}
+
+.latest-post {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.8rem;
+  margin-top: 2.4rem;
+  margin-bottom: 3rem;
+}
+
+.l-post-head {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.l-post-head:hover {
+  color: #081340;
+}
+
+.l-post-head:nth-last-child() {
+  margin-bottom: 2.4rem;
+}
+
+/* categories */
+.categories {
+  margin-top: 1.8rem;
+  padding: 2.6rem;
+  margin-bottom: 2.6rem;
+  text-align: start;
+}
+
+.cuti {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #081340;
+  margin-top: 1.6rem;
+  margin-bottom: 2.4rem;
+}
+
+.categories_lists {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.6rem;
+}
+
+.cat_li {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.a-tags {
+  margin-top: 2.4rem;
+  padding: 4rem;
+}
+
+.a-tag-txt {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #081340;
+  margin-top: 1.6rem;
+  margin-bottom: 2.4rem;
+}
+
+.tag-links:link {
+  display: inline-block;
+  text-decoration: none;
+  color: #081340;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.tag-links:hover {
+  color: #00c3ed;
 }
